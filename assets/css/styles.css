@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+  --black: hsl(0, 0%, 0%);
+}
+
+body {
+  background-color: var(--yellow);
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--white);
+  max-width: 350px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 10px 10px rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0);
+}
+
+.card-img-container {
+  width: 100%;
+  height: 60%;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-category {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--gray-950);
+  background-color: var(--yellow);
+  width: 25%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+.publish-date {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--gray-950);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.card-title {
+  color: var(--gray-950);
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin: 15px 0px 15px 0px;
+}
+
+.card-title:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.card-text {
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-500);
+  margin: 15px 0px 15px 0px;
+  text-align: left;
+}
+
+.card-author {
+  display: flex;
+  margin-top: 15px;
+}
+
+.author-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.author-text {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--gray-950);
+  text-align: left;
+  height: auto;
+  margin: auto 2px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile breakpoint (max-width: 375px) */
+@media only screen and (max-width: 375px) {
+  /* styles for mobile devices */
+}
+
+/* Desktop breakpoint (min-width: 1440px) */
+@media only screen and (min-width: 1440px) {
+  /* styles for desktop devices */
+}
